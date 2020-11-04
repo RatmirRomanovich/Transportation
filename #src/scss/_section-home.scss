@@ -1,0 +1,105 @@
+.section {}
+
+.section-home {
+	background: url("../../img/jpg/bgSectionHomeMin.jpg") center / cover no-repeat;
+	// .section-home_container
+
+	&_container {
+		padding: 10px;
+		height: 620px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		@media (max-width: $md3 + px) {
+			height: 400px;
+		}
+	}
+
+	// .section-home__description
+
+	&__description {
+		border: 1px solid #C8A35F;
+		padding: 45px 72px;
+		@media (max-width: $md2 + px) {
+			padding: 30px 48px;
+		}
+		@media (max-width: $md3 + px) {
+			padding: 15px 24px;
+		}
+
+		@media (max-width: $md4 + px) {
+			padding: 10px;
+		}
+	}
+
+	// .section-home__title
+
+	&__title {
+		font-weight: bold;
+		font-size: 64px;
+		line-height: 75px;
+		text-align: center;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		padding: 0px 0px 45px 0px;
+
+		@media (max-width: $md2 + px) {
+			font-size: 40px;
+			line-height: 40px;
+			padding: 0px 0px 30px 0px;
+		}
+		@media (max-width: $md3 + px) {
+			font-size: 30px;
+			line-height: 30px;
+			padding: 0px 0px 15px 0px;
+		}
+		@media (max-width: $md4 + px) {
+			font-size: 18px;
+			line-height: 20px;
+			padding: 0px 0px 15px 0px;
+		}
+		
+	}
+
+	// .section-home__text
+
+	&__text {
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+		padding: 0px 90px;
+
+		@media (max-width: $md2 + px) {
+			font-size: 16px;
+			line-height: 22px;
+			padding: 0px 30px;
+		}
+		@media (max-width: $md3 + px) {
+			padding: 0px 0px;
+		}
+		@media (max-width: $md4 + px) {
+			font-size: 14px;
+			line-height: 20px;
+		}
+
+	}
+}
+
+
+.section-home {
+
+	// .section-home__icon
+
+	&__icon {
+		width: 30px;
+		height: 30px;
+		padding-top: 30px;
+		cursor: pointer;
+	}
+
+	// .section-home__link
+
+	&__link {
+	}
+}
