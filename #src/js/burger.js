@@ -18,7 +18,7 @@ document.addEventListener('click', function (e) {
 });
 
 document.addEventListener('click', function (e) {
-	if (e.target.closest('.menu__close')) {
+	if (e.target.closest('.menu__link')) {
 		let user_menu = document.querySelector('.menu__body');
 		let user_icon = document.querySelector('.icon-menu');
 		user_menu.classList.remove('_active');

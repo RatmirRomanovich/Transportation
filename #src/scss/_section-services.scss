@@ -131,6 +131,6 @@
 .type-services__item_hident {
 	display: none;
 	@media (min-width: 586px) {
-		display: block;
+		display: flex;
 	}
 }
