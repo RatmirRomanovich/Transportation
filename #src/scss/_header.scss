@@ -49,7 +49,7 @@
 	// .header__info
 
 	&__info {
-		@media (max-width: 800px) {
+		@media (max-width: 830px) {
 			order: 2;
 		}
 	}
@@ -105,7 +105,7 @@
 	// .header__menu
 
 	&__menu {
-		@media (max-width: 800px) {
+		@media (max-width: 830px) {
 			order: 1;
 		}
 	}
@@ -173,7 +173,7 @@
 	// .menu__body
 
 	&__body {
-		@media (max-width: 800px) {
+		@media (max-width: 830px) {
 			overflow: auto;
 			opacity: 0;
 			visibility: hidden;
@@ -203,7 +203,7 @@
 	// .menu__list
 
 	&__list {
-		@media (max-width: 800px) {
+		@media (max-width: 830px) {
 			padding-top: 45px;
 			display: flex;
 			flex-direction: column;
@@ -223,7 +223,7 @@
 
 		}
 
-		@media (min-width: 801px) {
+		@media (min-width: 831px) {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -252,7 +252,7 @@
 }
 
 .icon-menu {
-	@media (max-width: 800px) {
+	@media (max-width: 830px) {
 		display: block;
 		position: relative;
 		width: 30px;
