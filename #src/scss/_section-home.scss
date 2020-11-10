@@ -1,3 +1,4 @@
+//*home =======================================================================================================================================
 .section {}
 
 .section-home {
@@ -5,9 +6,9 @@
 	// .section-home_container
 
 	&_container {
-		padding: 10px;
 		height: 620px;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
@@ -20,7 +21,8 @@
 
 	&__description {
 		border: 1px solid #C8A35F;
-		padding: 45px 72px;
+		max-width: 920px;
+		padding: 45px 0px;
 		@media (max-width: $md2 + px) {
 			padding: 30px 48px;
 		}
@@ -94,7 +96,7 @@
 	&__icon {
 		width: 30px;
 		height: 30px;
-		padding-top: 30px;
+		padding-top: 140px;
 		cursor: pointer;
 	}
 

@@ -1,11 +1,10 @@
+//*footer =======================================================================================================================================
 .footer {
 	background: #C8A35F;
 	padding: 15px 0px;
 	// .footer__container
 
-	&__container {
-		padding: 0px 10px;
-	}
+	&__container {}
 
 	// .footer__row
 
@@ -98,6 +97,12 @@
 
 	&__phone {
 		margin: 0px 0px 0px 15px;
+		&>.footer__link{
+			padding-bottom: 10px;
+			&:last-child{
+				padding: 0px 0px 0px 0px;
+			}
+		}
 
 		@media (max-width: 1050px) {
 			margin: 0px 0px 0px 0px;
@@ -113,7 +118,14 @@
 	&__source {}
 
 	// .footer__adress
-	&__adress {}
+	&__adress {
+		&>.footer__link{
+			padding-bottom: 10px;
+			&:last-child{
+				padding: 0px 0px 0px 0px;
+			}
+		}
+	}
 }
 
 .logo-company {}

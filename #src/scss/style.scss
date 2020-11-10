@@ -47,6 +47,7 @@ body {
 	width: 100%;
 	max-width: 1130px;
 	margin: 0 auto;
+	padding: 0px 10px;
 	min-height: 50px;
 }
 
@@ -58,13 +59,21 @@ body {
 	height: 100%;
 	object-fit: contain;
 }
+.img-card {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
 
 .main {
 	margin-top: 145px;
 	width: 100%;
 	flex: 1 1 auto;
-	background: green;
+	background: #333;
 }
 
 .link{
@@ -78,5 +87,7 @@ body {
 @import "_section-home.scss";
 @import "_section-area.scss";
 @import "_section-services.scss";
+@import "_section-company.scss";
+@import "_map.scss";
 @import "_footer.scss";
 //<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>=========================================================
